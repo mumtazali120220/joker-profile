@@ -1,0 +1,97 @@
+.back-image img {
+  width: 100%;
+  height: 70%;
+}
+
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* width: 48%; */
+  /* height: 50%; */
+}
+
+/* Style the header */
+.header {
+  margin-top: -1000px;
+
+  background-color: #333; /* Dark background color for the header */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Style the unordered list inside the header */
+.header ul {
+  display: flex;
+  align-items: center;
+}
+
+/* Style each list item inside the header */
+.header ul li {
+  margin: 0 15px;
+  color: #fff; /* White text color */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Style for the Font Awesome icon */
+.header ul li i {
+  font-size: 20px; /* Font size for the icon */
+  margin-right: 5px; /* Space to the right of the icon */
+}
+
+/* Hover effect for list items */
+.header ul li:hover {
+  color: #ddd; /* Lighter color on hover */
+}
+.joker {
+  color: whitesmoke;
+  margin-left: 100px;
+  margin-top: 145px;
+}
+.joker h1 {
+  font-size: 74px;
+  font-weight: 4px;
+  cursor: pointer;
+}
+.learn {
+  margin-top: 50px;
+  cursor: pointer;
+}
+.learn:hover {
+  color: blue;
+  transition: 0.5s;
+}
+.font {
+  color: white;
+  margin: 150px 93px;
+}
+.font li {
+  margin: 22px 3px;
+}
+.left {
+  color: white;
+}
+.left li {
+  display: inline;
+  margin: 0 12px;
+}
+.left ul {
+  margin-left: 1200px;
+  margin-top: -869px;
+  cursor: pointer;
+}
+.left ul li:hover {
+  color: blue;
+  transition: 0.5s;
+}
+.premair {
+  color: white;
+  margin-left: 1230px;
+  margin-top: 72px;
+  
+}
